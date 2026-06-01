@@ -1,0 +1,10 @@
+# 🔒 Segurança (Bloqueia credenciais e senhas)
+.env
+
+# 🐍 Arquivos locais do Python
+__pycache__/
+*.pyc
+
+# 📊 Arquivos de dados gerados localmente nos testes
+*.xlsx
+licitacoes_2026/
