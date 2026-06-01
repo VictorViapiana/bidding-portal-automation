@@ -1,7 +1,6 @@
 import os
 from datetime import datetime
 
-# Termos de Busca e Filtros de Análise
 STATUS_FILTROS = ["Recebendo Propostas", "Em Andamento"]
 
 PALAVRAS_NEGATIVAS = [
@@ -23,7 +22,6 @@ PALAVRAS_POSITIVAS = [
 ]
 
 def obter_caminho_salvamento():
-    """Gerencia a criação da pasta e define o nome sequencial do arquivo Excel"""
     caminho_desktop = os.path.join(os.path.expanduser("~"), "Desktop")
     nome_pasta = os.path.join(caminho_desktop, "licitacoes_2026")
     
